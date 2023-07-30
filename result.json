@@ -1,0 +1,105 @@
+[
+  {
+    "allExamPassed": false,
+    "exam": "Latihan 1",
+    "errors": [
+      "Jika argumennya adalah 2, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 6, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 0, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 2, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 4, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 6, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 8, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 10, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 12, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 14, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 16, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 18, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 20, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 22, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 24, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 26, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 28, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 30, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 32, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 34, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 36, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 38, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 40, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 42, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 44, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 46, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 48, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 50, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 52, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 54, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 56, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 58, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 60, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 62, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 64, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 66, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 68, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 70, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 72, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 74, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 76, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 78, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 80, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 82, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 84, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 86, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 88, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 90, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 92, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 94, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 96, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 98, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 100, fungsi isEvenNumber() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 10, fungsi moreThanFive() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 30, fungsi moreThanFive() seharusnya mengembalikkan nilai true",
+      "Jika argumennya adalah 20, fungsi result() seharusnya mengembalikkan nilai 600"
+    ]
+  },
+  {
+    "allExamPassed": false,
+    "exam": "Latihan 2",
+    "errors": [
+      "Jika argumen untuk parameter valueA adalah `101`, valueB adalah `52`, dan valueC adalah `99`, fungsi calculate() seharusnya mengembalikkan nilai 54",
+      "Jika argumen untuk parameter valueA adalah `101`, valueB adalah `52`, dan valueC adalah `null`, fungsi calculate() seharusnya mengembalikkan nilai 103",
+      "Jika argumennya adalah 103, fungsi result() seharusnya mengembalikkan pesan `Result is 103`"
+    ]
+  },
+  {
+    "allExamPassed": false,
+    "exam": "Latihan 3",
+    "errors": [
+      "Jika argumennya adalah `50`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it\u0027s Integer`",
+      "Jika argumennya adalah `Dicoding Indonesia`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it\u0027s String`",
+      "Jika argumennya adalah `1.0`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it\u0027s Double`",
+      "Jika argumennya adalah `listOf\u003cString\u003e()`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it\u0027s List`",
+      "Jika argumennya adalah `mapOf\u003cString, String\u003e()`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it\u0027s Map`"
+    ]
+  },
+  {
+    "allExamPassed": false,
+    "exam": "Latihan 4",
+    "errors": [
+      "Nilai kembalian vehicle() seharusnya terdapat key `type` dengan nilai `motorcycle`",
+      "Nilai kembalian vehicle() seharusnya terdapat key `maxSpeed` dengan nilai `230Km/s`",
+      "Nilai kembalian vehicle() seharusnya terdapat key `maxTank` dengan nilai `100Ltr`"
+    ]
+  },
+  {
+    "allExamPassed": false,
+    "exam": "Latihan 5",
+    "errors": [
+      "Pemanggilan fungsi sum() seharusnya terdapat jeda waktu minimal 3 detik",
+      "Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi sum() seharusnya mengembalikkan nilai 10",
+      "Jika argumen untuk parameter a adalah 100 dan b adalah 7, fungsi sum() seharusnya mengembalikkan nilai 107",
+      "Pemanggilan fungsi multiple() seharusnya terdapat jeda waktu minimal 2 detik",
+      "Jika argumen untuk parameter a adalah 6 dan b adalah 6, fungsi multiple() seharusnya mengembalikkan nilai 36",
+      "Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi multiple() seharusnya mengembalikkan nilai 25"
+    ]
+  }
+]

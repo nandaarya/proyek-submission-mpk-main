@@ -5,13 +5,9 @@
     "errors": []
   },
   {
-    "allExamPassed": false,
+    "allExamPassed": true,
     "exam": "Latihan 2",
-    "errors": [
-      "Jika argumen untuk parameter valueA adalah `101`, valueB adalah `52`, dan valueC adalah `99`, fungsi calculate() seharusnya mengembalikkan nilai 54",
-      "Jika argumen untuk parameter valueA adalah `101`, valueB adalah `52`, dan valueC adalah `null`, fungsi calculate() seharusnya mengembalikkan nilai 103",
-      "Jika argumennya adalah 103, fungsi result() seharusnya mengembalikkan pesan `Result is 103`"
-    ]
+    "errors": []
   },
   {
     "allExamPassed": false,

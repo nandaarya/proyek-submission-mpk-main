@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.130s</div>
+<div class="counter">0.046s</div>
 <p>duration</p>
 </div>
 </td>
@@ -73,12 +73,41 @@
 <a name="Latihan 3"></a>
 <h3 class="failures">Latihan 3</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: Jika argumennya adalah `1.0`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Double`
+<pre>org.opentest4j.AssertionFailedError: Jika argumennya adalah `mapOf&lt;String, String&gt;()`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Map`
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
 	at app//ExtentionsTestKt.assertEqualsWith(ExtentionsTest.kt:5)
-	at app//ExamTest$1$1$3$3.invoke(ExamTest.kt:138)
-	at app//ExamTest$1$1$3$3.invoke(ExamTest.kt:136)
+	at app//ExamTest$1$1$3$5.invoke(ExamTest.kt:156)
+	at app//ExamTest$1$1$3$5.invoke(ExamTest.kt:154)
+	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
+	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
+	at java.base@17.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base@17.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Latihan 3"></a>
+<h3 class="failures">Latihan 3</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: Jika argumennya adalah `50`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Integer`
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at app//ExtentionsTestKt.assertEqualsWith(ExtentionsTest.kt:5)
+	at app//ExamTest$1$1$3$1.invoke(ExamTest.kt:120)
+	at app//ExamTest$1$1$3$1.invoke(ExamTest.kt:118)
 	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
 	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -131,12 +160,12 @@
 <a name="Latihan 3"></a>
 <h3 class="failures">Latihan 3</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: Jika argumennya adalah `mapOf&lt;String, String&gt;()`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Map`
+<pre>org.opentest4j.AssertionFailedError: Jika argumennya adalah `1.0`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Double`
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
 	at app//ExtentionsTestKt.assertEqualsWith(ExtentionsTest.kt:5)
-	at app//ExamTest$1$1$3$5.invoke(ExamTest.kt:156)
-	at app//ExamTest$1$1$3$5.invoke(ExamTest.kt:154)
+	at app//ExamTest$1$1$3$3.invoke(ExamTest.kt:138)
+	at app//ExamTest$1$1$3$3.invoke(ExamTest.kt:136)
 	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
 	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -166,35 +195,6 @@
 	at app//ExtentionsTestKt.assertEqualsWith(ExtentionsTest.kt:5)
 	at app//ExamTest$1$1$3$4.invoke(ExamTest.kt:147)
 	at app//ExamTest$1$1$3$4.invoke(ExamTest.kt:145)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@17.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base@17.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Latihan 3"></a>
-<h3 class="failures">Latihan 3</h3>
-<span class="code">
-<pre>org.opentest4j.AssertionFailedError: Jika argumennya adalah `50`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it's Integer`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.assertEqualsWith(ExtentionsTest.kt:5)
-	at app//ExamTest$1$1$3$1.invoke(ExamTest.kt:120)
-	at app//ExamTest$1$1$3$1.invoke(ExamTest.kt:118)
 	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
 	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -305,11 +305,11 @@
 <a name="Latihan 5"></a>
 <h3 class="failures">Latihan 5</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi multiple() seharusnya mengembalikkan nilai 25
+<pre>org.opentest4j.AssertionFailedError: Pemanggilan fungsi sum() seharusnya terdapat jeda waktu minimal 3 detik
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
 	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$5$6$1.invokeSuspend(ExamTest.kt:231)
+	at app//ExamTest$1$1$5$1$1.invokeSuspend(ExamTest.kt:193)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
 	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
 	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
@@ -318,46 +318,8 @@
 	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
 	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
 	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//ExamTest$1$1$5$6.invoke(ExamTest.kt:229)
-	at app//ExamTest$1$1$5$6.invoke(ExamTest.kt:228)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@17.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base@17.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Latihan 5"></a>
-<h3 class="failures">Latihan 5</h3>
-<span class="code">
-<pre>org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 100 dan b adalah 7, fungsi sum() seharusnya mengembalikkan nilai 107
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$5$3$1.invokeSuspend(ExamTest.kt:207)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//ExamTest$1$1$5$3.invoke(ExamTest.kt:205)
-	at app//ExamTest$1$1$5$3.invoke(ExamTest.kt:204)
+	at app//ExamTest$1$1$5$1.invoke(ExamTest.kt:188)
+	at app//ExamTest$1$1$5$1.invoke(ExamTest.kt:187)
 	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
 	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -396,6 +358,44 @@
 	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
 	at app//ExamTest$1$1$5$2.invoke(ExamTest.kt:198)
 	at app//ExamTest$1$1$5$2.invoke(ExamTest.kt:197)
+	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
+	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
+	at java.base@17.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base@17.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Latihan 5"></a>
+<h3 class="failures">Latihan 5</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi multiple() seharusnya mengembalikkan nilai 25
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
+	at app//ExamTest$1$1$5$6$1.invokeSuspend(ExamTest.kt:231)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//ExamTest$1$1$5$6.invoke(ExamTest.kt:229)
+	at app//ExamTest$1$1$5$6.invoke(ExamTest.kt:228)
 	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
 	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -495,11 +495,11 @@
 <a name="Latihan 5"></a>
 <h3 class="failures">Latihan 5</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: Pemanggilan fungsi sum() seharusnya terdapat jeda waktu minimal 3 detik
+<pre>org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 100 dan b adalah 7, fungsi sum() seharusnya mengembalikkan nilai 107
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
 	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$5$1$1.invokeSuspend(ExamTest.kt:193)
+	at app//ExamTest$1$1$5$3$1.invokeSuspend(ExamTest.kt:207)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
 	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
 	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
@@ -508,8 +508,8 @@
 	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
 	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
 	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//ExamTest$1$1$5$1.invoke(ExamTest.kt:188)
-	at app//ExamTest$1$1$5$1.invoke(ExamTest.kt:187)
+	at app//ExamTest$1$1$5$3.invoke(ExamTest.kt:205)
+	at app//ExamTest$1$1$5$3.invoke(ExamTest.kt:204)
 	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
 	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
 	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -562,56 +562,6 @@
 </tr>
 <tr>
 <td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
 <td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
@@ -623,141 +573,6 @@
 <tr>
 <td class="success">Latihan 1</td>
 <td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.023s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -792,212 +607,7 @@
 </tr>
 <tr>
 <td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
 <td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1047,7 +657,17 @@
 </tr>
 <tr>
 <td class="success">Latihan 1</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1072,7 +692,277 @@
 </tr>
 <tr>
 <td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
 <td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1087,6 +977,51 @@
 </tr>
 <tr>
 <td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
@@ -1096,7 +1031,67 @@
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">Latihan 2</td>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 1</td>
 <td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
@@ -1107,17 +1102,27 @@
 </tr>
 <tr>
 <td class="success">Latihan 2</td>
-<td class="success">0.002s</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Latihan 2</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="failures">Latihan 3</td>
-<td class="failures">0.001s</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">Latihan 3</td>
-<td class="failures">0.001s</td>
+<td class="failures">0.010s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Latihan 3</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -1131,8 +1136,13 @@
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">Latihan 3</td>
-<td class="failures">0.022s</td>
+<td class="failures">Latihan 4</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Latihan 4</td>
+<td class="failures">0s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -1146,33 +1156,8 @@
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">Latihan 4</td>
+<td class="failures">Latihan 5</td>
 <td class="failures">0.001s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">Latihan 4</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">Latihan 5</td>
-<td class="failures">0.003s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">Latihan 5</td>
-<td class="failures">0.004s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">Latihan 5</td>
-<td class="failures">0.006s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">Latihan 5</td>
-<td class="failures">0.003s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -1182,7 +1167,22 @@
 </tr>
 <tr>
 <td class="failures">Latihan 5</td>
-<td class="failures">0.004s</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Latihan 5</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Latihan 5</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Latihan 5</td>
+<td class="failures">0.002s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -1195,7 +1195,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at Aug 1, 2023, 10:44:29 PM</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at Aug 2, 2023, 10:40:06 PM</p>
 </div>
 </div>
 </body>

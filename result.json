@@ -10,15 +10,9 @@
     "errors": []
   },
   {
-    "allExamPassed": false,
+    "allExamPassed": true,
     "exam": "Latihan 3",
-    "errors": [
-      "Jika argumennya adalah `50`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it\u0027s Integer`",
-      "Jika argumennya adalah `Dicoding Indonesia`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it\u0027s String`",
-      "Jika argumennya adalah `1.0`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it\u0027s Double`",
-      "Jika argumennya adalah `listOf\u003cString\u003e()`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it\u0027s List`",
-      "Jika argumennya adalah `mapOf\u003cString, String\u003e()`, fungsi checkType() seharusnya mengembalikkan pesan `Yes! it\u0027s Map`"
-    ]
+    "errors": []
   },
   {
     "allExamPassed": false,

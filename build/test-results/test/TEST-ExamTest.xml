@@ -1,85 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ExamTest" tests="129" skipped="0" failures="9" errors="0" timestamp="2023-08-03T14:53:08" hostname="LAPTOP-JEP357O7" time="0.093">
+<testsuite name="ExamTest" tests="129" skipped="0" failures="6" errors="0" timestamp="2023-08-03T14:57:48" hostname="LAPTOP-JEP357O7" time="0.084">
   <properties/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.01"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
@@ -102,6 +29,52 @@
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
@@ -111,92 +84,47 @@
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 1" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 2" classname="ExamTest" time="0.001"/>
   <testcase name="Latihan 2" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 2" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 3" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 3" classname="ExamTest" time="0.0"/>
-  <testcase name="Latihan 3" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 3" classname="ExamTest" time="0.001"/>
   <testcase name="Latihan 3" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 3" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 3" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 3" classname="ExamTest" time="0.0"/>
   <testcase name="Latihan 4" classname="ExamTest" time="0.001"/>
-  <testcase name="Latihan 4" classname="ExamTest" time="0.012">
-    <failure message="org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `type` dengan nilai `motorcycle`" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `type` dengan nilai `motorcycle`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$4$2.invoke(ExamTest.kt:172)
-	at app//ExamTest$1$1$4$2.invoke(ExamTest.kt:170)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@17.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base@17.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-</failure>
-  </testcase>
-  <testcase name="Latihan 4" classname="ExamTest" time="0.001">
-    <failure message="org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `maxSpeed` dengan nilai `230Km/s`" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `maxSpeed` dengan nilai `230Km/s`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$4$3.invoke(ExamTest.kt:177)
-	at app//ExamTest$1$1$4$3.invoke(ExamTest.kt:175)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@17.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base@17.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-</failure>
-  </testcase>
-  <testcase name="Latihan 4" classname="ExamTest" time="0.0">
-    <failure message="org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `maxTank` dengan nilai `100Ltr`" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Nilai kembalian vehicle() seharusnya terdapat key `maxTank` dengan nilai `100Ltr`
-	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
-	at app//ExtentionsTestKt.returnTrue(ExtentionsTest.kt:11)
-	at app//ExamTest$1$1$4$4.invoke(ExamTest.kt:182)
-	at app//ExamTest$1$1$4$4.invoke(ExamTest.kt:180)
-	at app//org.spekframework.spek2.runtime.scope.TestScopeImpl.execute(scopes.kt:136)
-	at app//org.spekframework.spek2.runtime.Executor$execute$result$2$exception$1$job$1.invokeSuspend(Executor.kt:84)
-	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
-	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
-	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
-	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
-	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
-	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
-	at app//org.spekframework.spek2.runtime.TaskRunner.runTask$lambda-2(executors.kt:26)
-	at java.base@17.0.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base@17.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
-</failure>
-  </testcase>
-  <testcase name="Latihan 5" classname="ExamTest" time="0.003">
+  <testcase name="Latihan 4" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 4" classname="ExamTest" time="0.0"/>
+  <testcase name="Latihan 4" classname="ExamTest" time="0.001"/>
+  <testcase name="Latihan 5" classname="ExamTest" time="0.011">
     <failure message="org.opentest4j.AssertionFailedError: Pemanggilan fungsi sum() seharusnya terdapat jeda waktu minimal 3 detik" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Pemanggilan fungsi sum() seharusnya terdapat jeda waktu minimal 3 detik
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
@@ -230,7 +158,7 @@
 	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
 </failure>
   </testcase>
-  <testcase name="Latihan 5" classname="ExamTest" time="0.004">
+  <testcase name="Latihan 5" classname="ExamTest" time="0.003">
     <failure message="org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi sum() seharusnya mengembalikkan nilai 10" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi sum() seharusnya mengembalikkan nilai 10
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
@@ -264,7 +192,7 @@
 	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
 </failure>
   </testcase>
-  <testcase name="Latihan 5" classname="ExamTest" time="0.003">
+  <testcase name="Latihan 5" classname="ExamTest" time="0.002">
     <failure message="org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 100 dan b adalah 7, fungsi sum() seharusnya mengembalikkan nilai 107" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 100 dan b adalah 7, fungsi sum() seharusnya mengembalikkan nilai 107
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
@@ -298,7 +226,7 @@
 	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
 </failure>
   </testcase>
-  <testcase name="Latihan 5" classname="ExamTest" time="0.002">
+  <testcase name="Latihan 5" classname="ExamTest" time="0.001">
     <failure message="org.opentest4j.AssertionFailedError: Pemanggilan fungsi multiple() seharusnya terdapat jeda waktu minimal 2 detik" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Pemanggilan fungsi multiple() seharusnya terdapat jeda waktu minimal 2 detik
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
@@ -366,7 +294,7 @@
 	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
 </failure>
   </testcase>
-  <testcase name="Latihan 5" classname="ExamTest" time="0.003">
+  <testcase name="Latihan 5" classname="ExamTest" time="0.002">
     <failure message="org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi multiple() seharusnya mengembalikkan nilai 25" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi multiple() seharusnya mengembalikkan nilai 25
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:134)

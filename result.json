@@ -15,13 +15,9 @@
     "errors": []
   },
   {
-    "allExamPassed": false,
+    "allExamPassed": true,
     "exam": "Latihan 4",
-    "errors": [
-      "Nilai kembalian vehicle() seharusnya terdapat key `type` dengan nilai `motorcycle`",
-      "Nilai kembalian vehicle() seharusnya terdapat key `maxSpeed` dengan nilai `230Km/s`",
-      "Nilai kembalian vehicle() seharusnya terdapat key `maxTank` dengan nilai `100Ltr`"
-    ]
+    "errors": []
   },
   {
     "allExamPassed": false,

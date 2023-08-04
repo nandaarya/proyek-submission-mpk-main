@@ -20,15 +20,8 @@
     "errors": []
   },
   {
-    "allExamPassed": false,
+    "allExamPassed": true,
     "exam": "Latihan 5",
-    "errors": [
-      "Pemanggilan fungsi sum() seharusnya terdapat jeda waktu minimal 3 detik",
-      "Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi sum() seharusnya mengembalikkan nilai 10",
-      "Jika argumen untuk parameter a adalah 100 dan b adalah 7, fungsi sum() seharusnya mengembalikkan nilai 107",
-      "Pemanggilan fungsi multiple() seharusnya terdapat jeda waktu minimal 2 detik",
-      "Jika argumen untuk parameter a adalah 6 dan b adalah 6, fungsi multiple() seharusnya mengembalikkan nilai 36",
-      "Jika argumen untuk parameter a adalah 5 dan b adalah 5, fungsi multiple() seharusnya mengembalikkan nilai 25"
-    ]
+    "errors": []
   }
 ]
